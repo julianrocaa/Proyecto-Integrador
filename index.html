@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loud Clothing</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="animaciones.css">
 </head>
 
 <body>
@@ -20,34 +21,266 @@
 
             <ul class="navbar-list">
                 <li><a href="#portada">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Tienda</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Cuenta</a></li>
-                <li><a href="#">Soporte</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#products">Tienda</a></li>
+                <li><a href="#contactos">Contacto</a></li>
+                <li><a href="register.html">Cuenta</a></li>
             </ul>
 
             <label for="cart-toggle" class="cart-label">
                 <img src="assets/navbar/icons8-carrito-de-compras-100.png" alt="Carrito" class="cart-icon">
             </label>
+            <div class="overlay"></div>
         </nav>
     </header>
 
     <main>
+
+        <!-- PORTADA -->
+
         <section id="portada">
             <div class="portada-info">
                 <h1>Vestí con lo mejor, vestí <span>Loud Clothing®</span></h1>
-                <p>Calidad, confort y mucho estilo, eso es lo que somos. Buscamos que la experencia sea diferente y
-                    única con diseños y producciones originales. ¿Qué esperas para vestir Loud?</p>
+                <p>Calidad, confort y mucho estilo, eso es lo que somos. Una performance diferente con diseños y
+                    productos originales. ¿Qué esperas para vestir Loud?</p>
             </div>
         </section>
 
+        <!-- QUIENES SOMOS -->
+
         <section id="nosotros">
             <div class="nosotros-info">
-<h2></h2>
+                <h2>¿Quienes somos?</h2>
+                <p>Loud Clothing® es una empresa familiar con años de experencia en el mercado. Empezamos en el año 2010
+                    en un garage de Mendoza, con producciones reducidas y minimalistas. Contamos con 3 locales de ropa fisicos para que puedas comprar y probar tus
+                    prendas favoritas. Dos repartidos por las provincias más imortantes de Argentina, y el mas reciente
+                    localizado en la capital de Uruguay, Montevideo.</p>
             </div>
         </section>
+
+
+        <!-- PRODUCTOS -->
+
+        <section id="products">
+
+            <h2>🔥Nuestra Ropa🔥</h2>
+
+            <div class="products-container">
+
+                <!-- PRODUCTO 1 -->
+                <div class="product">
+                    <img src="assets/productos/remera-1.png" alt="Remera LOUD®" class="img-products">
+                        <div class="product-info">
+
+                            <div class="product-top">
+                                <h3>T-SHIRT LOUD®</h3>
+                                <p><span>$5.000</span></p>
+                            </div>
+
+                            <div class="product-bot">
+                                <div class="botones-talles">
+                                    <button>S</button>
+                                    <button>M</button>
+                                    <button>L</button>
+                                    <button>XL</button>
+                                </div>
+                                <div class="agregar-al-carrito">
+                                    <img src="assets/productos/agregar al carrito.png" alt="Agregar al carrito">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <!-- PRODUCTO 2 -->
+                <div class="product">
+                    <img src="assets/productos/hoodie-1.png" alt="Hoodie 1" class="img-products">
+                        <div class="product-info">
+
+                            <div class="product-top">
+                                <h3>HOODIE L-STAR®</h3>
+                                <p><span>$10.000</span></p>
+                            </div>
+
+                            <div class="product-bot">
+                                <div class="botones-talles">
+                                    <button>S</button>
+                                    <button>M</button>
+                                    <button>L</button>
+                                    <button>XL</button>
+                                </div>
+                                <div class="agregar-al-carrito">
+                                    <img src="assets/productos/agregar al carrito.png" alt="Agregar al carrito">
+                                </div>
+                            </div>                       
+                        </div>
+                    </div>
+
+
+                <!-- PRODUCTO 3 -->
+                <div class="product">
+                    <img src="assets/productos/hoodie-2.png" alt="Hoodie 2" class="img-products">
+                        <div class="product-info">
+
+                            <div class="product-top">
+                                <h3>HOODIE BLACKSTAR®</h3>
+                                <p><span>$10.000</span></p>
+                            </div>
+
+                            <div class="product-bot">
+                                <div class="botones-talles">
+                                    <button>S</button>
+                                    <button>M</button>
+                                    <button>L</button>
+                                    <button>XL</button>
+                                </div>
+                                <div class="agregar-al-carrito">
+                                    <img src="assets/productos/agregar al carrito.png" alt="Agregar al carrito">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <!-- PRODUCTO 4 -->
+                <div class="product">
+                    <img src="assets/productos/hoodie-3.png" alt="Hoodie 3" class="img-products">
+                        <div class="product-info">
+
+                            <div class="product-top">
+                                <h3>HOODIE LOUD®</h3>
+                                <p><span>$10.000</span></p>
+                            </div>
+
+                            <div class="product-bot">
+                                <div class="botones-talles">
+                                    <button>S</button>
+                                    <button>M</button>
+                                    <button>L</button>
+                                    <button>XL</button>
+                                </div>
+                                <div class="agregar-al-carrito">
+                                    <img src="assets/productos/agregar al carrito.png" alt="Agregar al carrito">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <!-- PRODUCTO 5 -->
+                <div class="product">
+                    <img src="assets/productos/medias-1.png" alt="Medias L-star" class="img-products">
+                        <div class="product-info">
+
+                            <div class="product-top">
+                                <h3>SOCKS L-STAR®</h3>
+                                <p><span>$1.000</span></p>
+                            </div>
+
+                            <div class="product-bot">
+                                <div class="botones-talles">
+                                    <button>S</button>
+                                    <button>M</button>
+                                </div>
+                                <div class="agregar-al-carrito">
+                                    <img src="assets/productos/agregar al carrito.png" alt="Agregar al carrito">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <!-- PRODUCTO 6 -->
+                <div class="product">
+                    <img src="assets/productos/tote bag-2.png" alt="Totebag LOUD®" class="img-products">
+                        <div class="product-info">
+
+                            <div class="product-top">
+                                <h3>TOTEBAG LOUD®</h3>
+                                <p><span>$2.000</span></p>
+                            </div>
+
+                            <div class="product-bot">
+                                <div class="botones-talles">
+                                    <button>M</button>
+                                </div>
+                                <div class="agregar-al-carrito">
+                                    <img src="assets/productos/agregar al carrito.png" alt="Agregar al carrito">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+    <!-- SECCIÓN DE CONTACTO -->
+
+
+        <section id="contactos">
+            <h2>¡Nuestros Locales!</h2>
+            <div class="contact-info">
+
+                <!-- CONTACTO 1 -->
+
+                <div>
+                    <div class="contact">
+                        <h3>Ciudad de Mendoza, Mendoza</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2021.1330918124129!2d-68.84032194584454!3d-32.887736194960056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e08ea5073854d%3A0xcd83f99ec4818df8!2sAv.%20San%20Mart%C3%ADn%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1687973032967!5m2!1ses-419!2sar" width="350" height="250" style="border:3px solid black"; allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="contact-img">
+                            <p><img src="assets/contacto/icono-mapa.png" alt="calle">Av. San Martín 1351</p>
+                            <p><img src="assets/contacto/icono-mail.png" alt="correo">loudclothing@loud.com.ar</p>
+                            <p><img src="assets/contacto/icono-telefono.png" alt="telefono">+54 261 000-0000
+                        </div>
+                        </p>
+                    </div>
+                </div>
+
+                
+
+                <!-- CONTACTO 2 -->
+
+                <div>
+                    <div class="contact">
+                        <h3>Palermo Soho, Buenos Aires</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1230.3273583701832!2d-58.43046084440872!3d-34.58948138815749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5886e4699e1%3A0x81173a6c2f85ca99!2sGurruchaga%201563%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1687975040716!5m2!1ses-419!2sar" width="350" height="250" style="border:3px solid black";" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="contact-img">
+                            <p><img src="assets/contacto/icono-mapa.png" alt="calle">Gurruchaga 1563</p>
+                            <p><img src="assets/contacto/icono-mail.png" alt="correo"> loudclothing@loud.com.ar</p>
+                            <p><img src="assets/contacto/icono-telefono.png" alt="telefono">+54 11 000-0000
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CONTACTO 3 -->
+
+                <div>
+                    <div class="contact">
+                        <h3>Montevideo, Uruguay</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2914.7743651782234!2d-56.16208730850287!3d-34.913361970540194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sLibertad%202445!5e0!3m2!1ses-419!2sar!4v1687975559598!5m2!1ses-419!2sar" width="350" height="250" style="border:3px solid black";" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                        <div class="contact-img">
+                            <p><img src="assets/contacto/icono-mapa.png" alt="calle"> Libertad 2445</p>
+                            <p><img src="assets/contacto/icono-mail.png" alt="correo"> loudclothing@loud.com.uy</p>
+                            <p><img src="assets/contacto/icono-telefono.png" alt="telefono">(+598) 0000 0000
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
     </main>
+
+    <footer id="footer">
+        <div class="footer-info">
+            <img src="assets/navbar/logo.png" alt="Logo footer">
+            <div class="footer-img">
+                <img src="assets/footer/icono-instagram.png" alt="Icono Intagram">
+                <img src="assets/footer/icono-facebook.png" alt="Icono Facebook">
+                <img src="assets/footer/icono-twitter.png" alt="Icono Twitter">
+            </div>
+            <p>Copyright - Loud Clothing®</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>

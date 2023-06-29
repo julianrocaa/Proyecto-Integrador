@@ -1,16 +1,5 @@
- @media(max-width: 1500px) {
-    .menu-label {
-        display: none;
-    }
 
-    #menu-toggle {
-        display: none;
-    }
-    
- }
- 
- @media (max-width: 992px) {
-
+@media (max-width: 992px) {
 
     .navbar {
         gap: 10px;
@@ -24,25 +13,20 @@
 
     .navbar-list {
         position: absolute;
-        top: 65px;
+        top: 85px;
         left: 5%;
         right: 5%;
         width: 90%;
         flex-direction: column;
-        background-color: var(--eerie-black);
-        border: 2px solid var(--eerie-black);
-        border-top: none;
         border-radius: 0px 0px 15px 15px;
         align-items: flex-start;
         padding: 45px 30px;
         gap: 25px;
         z-index: 2;
         display: none;
+        background: var(--gamboge);
     }
 
-    .navbar-list a {
-        font-size: 18px;
-    }
 
     .menu-label {
         display: flex;
@@ -63,6 +47,31 @@
         display: none;
     }
 
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
  }
     
- 
+
+
+
