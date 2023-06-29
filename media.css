@@ -100,7 +100,7 @@
     /* PRODUCTS */
 
     .products-container {
-        width: 100%px;
+        width: 100%;
     }
 
     .product {
@@ -128,6 +128,7 @@
     /* REGISTER */
 
     #register {
+        margin-top: 250px;
         padding-left: 80px;
         padding-right: 80px;
     }
@@ -140,10 +141,10 @@
 
     #login {
         padding: 100px;
+        margin-top: 350px;
     }
 
 }
-
 
 
 @media (max-width: 768px) {
@@ -171,13 +172,17 @@
 
     #register {
         padding: 30px;
+        margin-top: 150px;
     }
 
     .register-info {
         width: 100%;
     }
 
+    /* LOGIN */
+
     #login {
+        margin-top: 250px;
         padding: 80px;
 
     }
@@ -189,19 +194,17 @@
 }
 
 
-
-
 @media (max-width: 576px) {
 
     /* PORTADA */
 
     #portada {
-        background-size: 170% 100%;
+        background-size: 190% 100%;
         padding: 35px;
     }
 
     .portada-info h1 {
-        padding-top: 240px;
+        padding-top: 525px;
         font-size: 40px;
         font-weight: 900;
     }
@@ -209,7 +212,7 @@
     .portada-info p {
         padding-left: 0px;
         padding-right: 0px;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 500;
     }
 
@@ -237,10 +240,8 @@
         font-size: 35px;
     }
 
-    .products-container {
-        padding-left: 80px;
-        padding-right: 80px;
-        padding-top: 30px;
+    .product {
+        width: 110%;
     }
 
     /* CONTACT */
@@ -257,7 +258,7 @@
     /* REGISTER */
 
     #register {
-        padding: 30px;
+        padding: 20px;
     }
 
     .register-info {
@@ -276,8 +277,8 @@
     /* LOGIN */
 
     #login {
-        margin-top: 50px;
-        padding: 50px;
+        margin-top: 250px;
+        padding: 15px;
     }
 
     .login-info {
@@ -285,32 +286,49 @@
     }
 
     .login-info h4 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     ::placeholder {
-        font-size: 15PX;
+        font-size: 20PX;
     }
 
     .login-info p {
-        font-size: 17px;
+        font-size: 23px;
     }
 
     .login-info p:last-child {
-        font-size: 18px;
+        font-size: 19px;
     }
 
 
 }
 
 
-
 @media (max-width: 410px) {
+
+    #portada {
+        background-size: 190% 100%;
+        padding: 35px;
+    }
+
+    .portada-info h1 {
+        padding-top: 240px;
+        font-size: 40px;
+        font-weight: 900;
+    }
 
     .register-info h4 {
         font-size: 100%;
     }
 
+    #register{
+        margin-top: 50px;
+    }
+
+    #login {
+        margin-top: 150px;
+    }
 
     .login-info p {
         font-size: 12px;
@@ -322,3 +340,5 @@
 
     }
 }
+
+
