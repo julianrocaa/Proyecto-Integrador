@@ -52,7 +52,7 @@
   }
   
   #menu-toggle:checked ~ .overlay {
-    display: none;
+    display: block;
   }
 
 

@@ -13,7 +13,7 @@
     --auburn: #9b2226ff;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -36,8 +36,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 2;
-
-
 }
 
 .logo {
@@ -73,14 +71,14 @@ header {
 
 #menu-toggle,
 .menu-label {
-  display: none;
+    display: none;
 }
 
-
+/* PORTADA */
 
 #portada {
-    background-image: url(assets/T-Shirt_Mockup_MockupsForFree.png); 
-    box-shadow: 1px 10px 37px grey;   
+    background-image: url(assets/T-Shirt_Mockup_MockupsForFree.png);
+    box-shadow: 1px 10px 37px grey;
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 100% 740px;
@@ -105,6 +103,7 @@ header {
     padding-top: 100px;
     font-size: 37px;
     font-weight: 900;
+
 }
 
 .portada-info p {
@@ -153,13 +152,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px;
     max-width: 1200px;
     width: 100%;
+    margin: 0 auto; 
 
 }
 
 #products h2 {
+    padding-top: 30px;
     font-size: 40px;
     font-weight: 900;
 }
@@ -196,23 +196,23 @@ header {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-  }
+}
 
 .product-top,
 .product-bot {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.botones-talles button{
+.botones-talles button {
     border: none;
     border: 2px solid black;
     background: white;
     padding: 10px 15px;
 }
 
-.agregar-al-carrito img{
+.agregar-al-carrito img {
     width: 30px;
     cursor: pointer;
 }
@@ -233,7 +233,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     padding-left: 40px;
-    padding-right:40px;
+    padding-right: 40px;
     gap: 50px;
 }
 
@@ -262,7 +262,7 @@ header {
 
 #footer {
     background-color: #FFFFFF;
-    background-image: linear-gradient(180deg, #FFFFFF 0%, #e9d8a6 50%, #ee9b00 100%);   
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #e9d8a6 50%, #ee9b00 100%);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -275,7 +275,7 @@ header {
 
 .footer-info img {
     width: 90px;
-    padding-top:28px ;
+    padding-top: 28px;
 }
 
 .footer-info p {
@@ -284,14 +284,14 @@ header {
     font-weight: 200;
 }
 
-.footer-img{
+.footer-img {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 
-.footer-img img{
+.footer-img img {
     width: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
