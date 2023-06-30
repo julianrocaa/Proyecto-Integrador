@@ -22,8 +22,6 @@ body {
   align-items: center;
   justify-content: center;
   padding-top: 30px;
-
-
 }
 
 .register-info {
@@ -63,19 +61,6 @@ body {
 .register-info p:last-child {
   font-size: 18px;
   font-weight: 500;
-}
-
-
-.register-info a {
-  color: #ca6702;
-  text-decoration: none;
-  transition: 0.5s;
-}
-
-.register-info a:hover {
-  color: #005f73 ;
-  font-size: 18px;
-  transition: 0.5s;
 }
 
 .register-info .botons {

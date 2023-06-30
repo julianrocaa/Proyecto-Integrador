@@ -63,17 +63,6 @@ body {
   font-weight: 500;
 }
 
-.login-info a {
-  color:#ca6702 ;
-  transition: 0.5s;
-}
-
-.login-info a:hover {
-  color: #005f73;
-  font-size: 18px;
-  transition: 0.5s;
-}
-
 .login-info .botons {
   width: 100%;
   background: white;

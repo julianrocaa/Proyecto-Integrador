@@ -1,3 +1,4 @@
+/* COLORES */
 
 :root {
     --rich-black: #001219ff;
@@ -11,17 +12,25 @@
     --rufous: #ae2012ff;
     --auburn: #9b2226ff;
 }
-/* BOTON DE TALLES */
+
+/* HTML */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* BOTON DE TALLES (SECCIÓN PRODUCTOS) */
 
 .botones-talles button {
     transition: 1;
 }
-.botones-talles button:hover{
+
+.botones-talles button:hover {
     background-color: var(--gamboge);
     transition: 1;
     cursor: pointer;
-    
 }
+
 /* NAVBAR  */
 
 .navbar-list a {
@@ -30,13 +39,15 @@
     transition: 0.7s;
 }
 
-.navbar-list a:hover{
+.navbar-list a:hover {
     color: var(--rich-black);
     font-weight: 900;
     font-size: 22px;
     transition: 0.7s;
-   
+
 }
+
+/* BLUR DEL MENÚ */
 
 .overlay {
     position: absolute;
@@ -44,15 +55,40 @@
     left: 0;
     height: 100vh;
     width: 100%;
-    z-index: 1; 
+    z-index: 1;
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     display: none;
-  }
-  
-  #menu-toggle:checked ~ .overlay {
+}
+
+#menu-toggle:checked~.overlay {
     display: block;
-  }
+}
 
+/* LINKS DEL LOGIN */
 
+.login-info a {
+    color: #ca6702;
+    transition: 0.5s;
+}
+
+.login-info a:hover {
+    color: #005f73;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+/* LINKS DEL REGISTER */
+
+.register-info a {
+    color: #ca6702;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.register-info a:hover {
+    color: #005f73;
+    font-size: 18px;
+    transition: 0.5s;
+}

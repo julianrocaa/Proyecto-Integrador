@@ -1,5 +1,7 @@
 @media (max-width: 992px) {
 
+    /* NAVBAR */
+
     .navbar {
         gap: 10px;
     }
@@ -26,7 +28,6 @@
         background: var(--gamboge);
     }
 
-
     .menu-label {
         display: flex;
         order: 2;
@@ -50,17 +51,14 @@
     /* PORTADA */
 
     #portada {
-
         background-size: 100% 600px;
         padding: 100px;
-
     }
 
     .portada-info h1 {
         padding-top: 180px;
         font-size: 25px;
         font-weight: 900;
-
     }
 
     .portada-info p {
@@ -69,7 +67,6 @@
         font-size: 18px;
         font-weight: 400;
     }
-
 
     /* ABOUT US */
 
@@ -96,8 +93,7 @@
         padding-top: 5px;
     }
 
-
-    /* PRODUCTS */
+    /* PRODUCTOS */
 
     .products-container {
         width: 100%;
@@ -114,8 +110,7 @@
         justify-content: center;
     }
 
-
-    /* CONTACT */
+    /* CONTACTOS */
 
     .contact-info {
         display: flex;
@@ -149,6 +144,8 @@
 
 @media (max-width: 768px) {
 
+    /* PORTADA */
+
     #portada {
 
         background-size: 100% 500px;
@@ -169,6 +166,8 @@
         font-size: 18px;
         font-weight: 400;
     }
+
+    /* REGISTER */
 
     #register {
         padding: 30px;
@@ -204,7 +203,7 @@
     }
 
     .portada-info h1 {
-        padding-top: 300px;
+        padding-top: 350px;
         font-size: 40px;
         font-weight: 900;
     }
@@ -217,6 +216,7 @@
     }
 
     /* ABOUT US */
+
     .nosotros-info {
         height: 90%;
         width: 90%;
@@ -234,7 +234,7 @@
         font-weight: 200;
     }
 
-    /* PRODUCTS */
+    /* PRODUCTOS */
 
     #products h2 {
         font-size: 35px;
@@ -244,7 +244,7 @@
         width: 110%;
     }
 
-    /* CONTACT */
+    /* CONTACTOS */
 
     #contactos h2 {
         font-size: 35px;
@@ -303,5 +303,3 @@
     }
 
 }
-
-
