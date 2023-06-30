@@ -259,6 +259,7 @@
 
     #register {
         padding: 20px;
+        margin-top: 80px;
     }
 
     .register-info {
@@ -294,51 +295,13 @@
     }
 
     .login-info p {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .login-info p:last-child {
-        font-size: 19px;
+        font-size: 17px;
     }
 
-
-}
-
-
-@media (max-width: 410px) {
-
-    #portada {
-        background-size: 190% 100%;
-        padding: 35px;
-    }
-
-    .portada-info h1 {
-        padding-top: 240px;
-        font-size: 40px;
-        font-weight: 900;
-    }
-
-    .register-info h4 {
-        font-size: 100%;
-    }
-
-    #register{
-        margin-top: 50px;
-    }
-
-    #login {
-        margin-top: 150px;
-    }
-
-    .login-info p {
-        font-size: 12px;
-        height: 24px;
-    }
-
-    .login-info p:last-child {
-        font-size: 12px;
-
-    }
 }
 
 
